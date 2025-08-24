@@ -1,17 +1,86 @@
-<<<<<<< HEAD
-# React + Vite
+# Gmail-Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive Gmail clone built with **React**, **Tailwind CSS**, **React Router**, **Firebase**, and **Redux**. This project features authentication, real-time email management, and a user interface inspired by Gmail.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 📧 User authentication with Firebase
+- 📨 Compose, send, receive, and delete emails
+- 📂 Organized inbox and sidebar navigation
+- 🚦 Real-time updates for email actions
+- 🎨 Responsive design using Tailwind CSS
+- 🔄 Routing with React Router for a seamless app experience
+- 🗂 State management with Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Gmail-clone
-A full-featured Gmail clone built with React, Tailwind CSS, React Router, and Firebase, offering user authentication, real-time email management, and a responsive UI inspired by Gmail.
->>>>>>> c83a17f42741d018abf73506d98d31b46024eb08
+---
+
+## Getting Started
+
+1. **Clone the Repository**
+   git clone https://github.com/your-username/gmail-clone.git
+   
+2. **Navigate to the Project Directory**
+   cd gmail-clone
+   
+3. **Install Dependencies**
+   npm install
+   
+4. **Set Up Firebase**
+- Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+- Copy your Firebase config into the project's `src/firebase.js` file.
+
+5. **Run the Application**
+   npm start
+
+- The app will be live at `http://localhost:3000`
+
+---
+
+## Folder Structure
+
+| Name             | Description                          |
+|------------------|--------------------------------------|
+| `public/`        | Public assets                        |
+| `src/`           | Source code                          |
+| &nbsp;&nbsp;`assets/`      | Images, icons                     |
+| &nbsp;&nbsp;`components/`  | React UI components                |
+| &nbsp;&nbsp;`redux/`       | Redux state management             |
+| &nbsp;&nbsp;`firebase.js`  | Firebase configuration             |
+| &nbsp;&nbsp;`App.jsx`      | Main application component         |
+| &nbsp;&nbsp;`main.jsx`     | App entry point                    |
+| `README.md`      | Project documentation                 |
+| `package.json`   | Project dependencies and scripts      |
+
+---
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Firebase](https://firebase.google.com/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+
+---
+
+## Customization
+
+- Update styles in `index.css` and Tailwind config to change UI
+- Modify or add components in `src/components/` for new features
+- Add Redux slices for more advanced state management
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Please open an issue or submit a pull request to help improve the app.
+
+---
+
+## Credits
+
+- Inspired by Gmail and Google’s Material Design
+- Developed by [Tania]
