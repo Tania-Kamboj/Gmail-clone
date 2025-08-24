@@ -19,20 +19,20 @@ A fully responsive Gmail clone built with **React**, **Tailwind CSS**, **React R
 ## Getting Started
 
 1. **Clone the Repository**
-   git clone https://github.com/your-username/gmail-clone.git
+- git clone https://github.com/your-username/gmail-clone.git
    
 2. **Navigate to the Project Directory**
-   cd gmail-clone
+- cd gmail-clone
    
 3. **Install Dependencies**
-   npm install
+- npm install
    
 4. **Set Up Firebase**
 - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
 - Copy your Firebase config into the project's `src/firebase.js` file.
 
 5. **Run the Application**
-   npm start
+- npm start
 
 - The app will be live at `http://localhost:3000`
 
